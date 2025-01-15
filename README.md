@@ -1,59 +1,36 @@
-# NBA_22-24 Dataset
-Dataset for NBA seasons 22-24
+# NBA Database 2022-2023 Season
 
-GAME_ID,
-TEAM_ID_HOME,
-TEAM_NAME_HOME,
-TEAM_ABBREVIATION_HOME,
-TEAM_CITY_HOME,
-MIN_HOME,
-E_OFF_RATING_HOME,
-OFF_RATING_HOME,
-E_DEF_RATING_HOME,
-DEF_RATING_HOME,
-E_NET_RATING_HOME,
-NET_RATING_HOME,
-AST_PCT_HOME,
-AST_TOV_HOME,
-AST_RATIO_HOME,
-OREB_PCT_HOME,
-DREB_PCT_HOME,
-REB_PCT_HOME,
-E_TM_TOV_PCT_HOME,
-TM_TOV_PCT_HOME,
-EFG_PCT_HOME,
-TS_PCT_HOME,
-USG_PCT_HOME,
-E_USG_PCT_HOME,
-E_PACE_HOME,
-PACE_HOME,
-PACE_PER40_HOME,
-POSS_HOME,
-PIE_HOME,
-TEAM_ID_AWAY,
-TEAM_NAME_AWAY,
-TEAM_ABBREVIATION_AWAY,
-TEAM_CITY_AWAY,MIN_AWAY,
-E_OFF_RATING_AWAY,
-OFF_RATING_AWAY,
-E_DEF_RATING_AWAY,
-DEF_RATING_AWAY,
-E_NET_RATING_AWAY,
-NET_RATING_AWAY,
-AST_PCT_AWAY,
-AST_TOV_AWAY,
-AST_RATIO_AWAY,
-OREB_PCT_AWAY,
-DREB_PCT_AWAY,
-REB_PCT_AWAY,
-E_TM_TOV_PCT_AWAY,
-TM_TOV_PCT_AWAY,
-EFG_PCT_AWAY,
-TS_PCT_AWAY,
-USG_PCT_AWAY,
-E_USG_PCT_AWAY,
-E_PACE_AWAY,
-PACE_AWAY,
-PACE_PER40_AWAY,
-POSS_AWAY,
-PIE_AWAY
+## Project Description
+This project contains comprehensive data from the 2022-2023 NBA season, including basic and advanced game statistics, as well as aggregated team statistics. The data is organized into CSV and Excel files, making it suitable for various data analysis and machine learning projects.
+
+## Folder Structure
+
+NBA_Database/
+│
+├── game_basic.csv
+├── game_adv.csv
+├── game_basic_adv.csv
+├── Teams_Full_Season.xlsx
+└── 22-23_Team_Game_Stats.xlsx
+
+## Data Description
+### game_basic.csv
+- **Description**: Contains basic statistics for each game in the 2022-2023 NBA season.
+- **Columns**: Date, Team, Opponent, Points, Rebounds, Assists, etc.
+
+### game_adv.csv
+- **Description**: Contains advanced statistics for each game in the 2022-2023 NBA season.
+- **Columns**: Date, Team, Opponent, Player Efficiency Rating (PER), True Shooting Percentage (TS%), etc.
+
+### game_basic_adv.csv
+- **Description**: Combines both basic and advanced statistics for each game in the 2022-2023 NBA season.
+- **Columns**: All columns from `game_basic.csv` and `game_adv.csv`.
+
+### Teams_Full_Season.xlsx
+- **Description**: Aggregated data for each team across all games in the 2022-2023 NBA season.
+- **Sheets**: One sheet per team, containing season-long statistics.
+
+### 22-23_Team_Game_Stats.xlsx
+- **Description**: Aggregated game statistics for each team across the full season.
+- **Columns**: Team, Total Points, Total Rebounds, Total Assists, etc.
+
